@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://kit.fontawesome.com/8a251bead6.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./Assets/icono.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2? family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>Landing Page</title>
+</head>
+<body>
+
+    <!--HEADER-->
+
+    <header>
+        <nav>            
+            <div class="navegacion">
+                <a class="logo" href="#">                    
+                    <img src="./Assets/icono.png" alt="Logo">
+                </a>  
+            </div>            
+            <div class="info">
+                <a href="#catalogo">Catalogo</a>
+                <a href="#quienes-somos">Quienes Somos</a> 
+                <a href="#contacto">Contacto</a>
+            </div>
+            
+            <div class="login">
+                <a href="#" class="login_desktop">
+                    Iniciar Sesion
+                </a>
+                <a href="#" class="login_movile">
+                    <i class="fa-solid fa-bars"></i>
+                </a>                
+            </div>                        
+        </nav>
+    </header>
+    <main>
+
+        <!--JUMBOTRON-->
+
+        <section class="banner" id="contacto">
+            <p class="banner-oferta">Suscribete y obten un 30% de descuento.<a href="#"> Únete ya</a></p>
+            <div class="banner-promocion">
+                <div class="banner-container">
+                    <div>                        
+                        <h1>CAMINA CON MUCHA PASION, CONFORT Y TRANQUILIDAD</h1>
+                    </div>
+                    <div class="banner-container-btn" >
+                        <div>
+                            <input type="email" placeholder="   Ingresa tu correo" name="email" class="email">                          
+                            <button>Enviar</button>
+                        </div>
+                        <p>te contactaremos en el menor tiempo posible, aceptamos todas las tarjetas debito y credito.</p>
+                    </div>
+                </div>               
+            </div> 
+        </section>
+
+        <!--CATALOGO-->
+
+        <section class="catalogo" id="catalogo">
+            <h2>QUE DESEAS?</h2>
+            <hr>
+            <div class="catalogo-cards">
+                <div class="running">
+                    <div>
+                        <img src="./Assets/tenis runing.jpg" alt="tennis running"> 
+                    </div>
+                    <div class="">
+                        <h3><a href="#">RUNNING</a></h3>
+                        <button>VER MAS</button>
+                    </div>
+                </div>
+                <div class="training">
+                    <div>
+                        <img src="./Assets/training.jpg" alt="Tenis Training">                    
+                    </div>
+                    <div>
+                        <h3><a href="#">TRAINING</a></h3>
+                        <button>VER MAS</button>
+                    </div>
+                </div>
+                <div class="outdoor">
+                    <div>
+                        <img src="./Assets/outdoor5.jfif" alt="tenis outdoor">
+                    </div>
+                    <div>
+                        <h3><a href="#">OUTDOOR</a></h3>
+                        <button>VER MAS</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--PREFERENCIAS-->
+
+        <section class="ambiente">            
+            <div>
+                <h4>
+                    PROTEGER NUESTRO MEDIO AMBIENTE ES NUESTRA PRINCIPAL PRIORIDAD. NUESTRA MISIÓN VA MÁS ALLÁ DEL DEPORTE. ES NUESTRO FUTURO.
+                </h4>
+                <button>CONOCE MAS <i class="fa-solid fa-arrow-right"></i></button>                              
+            </div>           
+        </section>        
+    </main>
+
+    <!--Footer-->
+
+    <footer>
+        <div class="container-footer">
+            
+            <div class="productos">
+                <h3>PRODUCTOS</h3>
+                <ul>
+                    <li><a href="#"><span>Calzado</span></a></li>
+                    <li><a href="#"><span>Hot sale</span></a></li>   
+                    <li><a href="#"><span>Outlet</span></a></li>                  
+                </ul>
+            </div>
+
+            <div class="soporte">
+                <h3>ASISTENCIA</h3>
+                <ul>
+                    <li><a href=""><span>¿Necesitas Ayuda?</span></a></li>
+                    <li><a href=""><span>Dudas Frecuentes</span></a></li>
+                    <li><a href=""><span>Guia de Tallas</span></a></li>
+                    <li><a href=""><span>Ventas por Whatsapp</span></a></li>
+                    <li><a href=""><span>Pago</span></a></li>
+                    <li><a href=""><span>Envío</span></a></li>
+                    <li><a href=""><span>Solicitar mi Devolucion</span></a></li>
+
+                </ul>
+            </div>
+
+            <div class="nosotros" id="quienes-somos">
+                <h3>NOSOTROS</h3>
+                <ul>
+                    <li><a href=""><span>Acerca de Nosotros</span></a></li>
+                    <li><a href=""><span>Trabaja con nosotros</span></a></li>
+                    <li><a href=""><span>Ultimas Noticias</span></a></li>
+                </ul>
+            </div>
+
+            <div class="siguenos">
+                <h3>SIGUENOS</h3>
+                <ul>
+                    <li><a href=""><span><i class="fa-brands fa-facebook"></i></span></a></li>
+                    <li><a href=""><span><i class="fa-brands fa-instagram"></i></span></a></li>
+                    <li><a href=""><span><i class="fa-brands fa-twitter"></i></span></a></li>
+                    <li><a href=""><span><i class="fa-brands fa-telegram"></i></span></a></li>
+                    <li><a href=""><span><i class="fa-brands fa-whatsapp"></i></span></a></li>
+                    <li><a href=""><span><i class="fa-brands fa-youtube"></i></span></a></li>                    
+                </ul>
+            </div>          
+
+        </div>
+    </footer> 
+    
+    <!--MODAL-->
+    <section class="modal" >
+        <div id="modal__container" class="login-box">          
+            <img src="./Assets/icono.png" class="avatar" alt="Avatar Image">
+            <h1>Iniciar sesión</h1>
+            <form>
+                <!-- USERNAME INPUT -->
+                <label for="username">Usuario</label>
+                <input type="text" placeholder="Ingresa tu usuario">
+                <!-- PASSWORD INPUT -->
+                <label for="password">Contraseña</label>
+                <input type="password" placeholder="Ingresa tu contraseña">
+                <input type="submit" value="Iniciar sesión">
+                <a href="#">¿Olvidaste tu contraseña?</a><br>
+                <a href="#">¿No tienes una cuenta?</a>
+            </form>            
+            <a href="#" class="modal__close">Cerrar</a>           
+        </div>
+    </section> 
+
+   
+
+    <script src="./JS/index.js"></script>
+
+</body>
+</html>
